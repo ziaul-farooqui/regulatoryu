@@ -1,9 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T04:48:42.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="21.6.8" etag="bVDb8054Vi-TcQqoYH_k" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-19T04:49:54.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jI8FUluHD8R8FGiW5RSO" version="21.6.8" type="github">
   <diagram name="Page-1" id="sR0lmf0f-BIrSsYX2vXO">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WYK0vvlmbvkDMBmVVv9O-2" target="WYK0vvlmbvkDMBmVVv9O-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="129.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-2" value="Application Server" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="581" y="182" width="39.44" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-3" value="Database" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="775" y="182" width="50" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.68;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WYK0vvlmbvkDMBmVVv9O-5" target="WYK0vvlmbvkDMBmVVv9O-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-5" value="Load Balancer" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/fast-website-load-speed-128.png" vertex="1" parent="1">
+          <mxGeometry x="413" y="184" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WYK0vvlmbvkDMBmVVv9O-7" target="WYK0vvlmbvkDMBmVVv9O-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-7" value="Akamai Servers" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/cluster_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="201" y="184" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WYK0vvlmbvkDMBmVVv9O-9" target="WYK0vvlmbvkDMBmVVv9O-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-9" value="" style="image;html=1;image=img/lib/clip_art/computers/Network_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="25" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WYK0vvlmbvkDMBmVVv9O-11" target="WYK0vvlmbvkDMBmVVv9O-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="100" />
+              <mxPoint x="233" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-11" value="Public Private&lt;br&gt;Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WYK0vvlmbvkDMBmVVv9O-14" target="WYK0vvlmbvkDMBmVVv9O-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="136" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WYK0vvlmbvkDMBmVVv9O-15" target="WYK0vvlmbvkDMBmVVv9O-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="129.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-14" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
+          <mxGeometry x="314" y="191" width="30.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WYK0vvlmbvkDMBmVVv9O-15" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
+          <mxGeometry x="675" y="182" width="30.5" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
