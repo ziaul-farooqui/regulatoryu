@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T14:02:14.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4bkfcCdJ5gOBErwbNle8" version="23.1.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-28T05:00:23.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="W9tYexeVrHQmJ54d-cWZ" version="23.1.5" type="github" pages="5">
   <diagram name="Deployment Diagram" id="sR0lmf0f-BIrSsYX2vXO">
     <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -283,7 +283,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Hjb3uCLd1JjgDBm4LGB7" name="Configuration">
-    <mxGraphModel dx="880" dy="177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -361,8 +361,8 @@
         <mxCell id="PfeCGRiVPrAXhvUWaA7X-23" value="site_afsa.properties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="196" y="322" width="122" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="PfeCGRiVPrAXhvUWaA7X-25" value="site_afsa.properties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="521" y="317" width="122" height="21" as="geometry" />
+        <mxCell id="PfeCGRiVPrAXhvUWaA7X-25" value="site_regulatoryu.properties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="513" y="317" width="149" height="21" as="geometry" />
         </mxCell>
         <mxCell id="PfeCGRiVPrAXhvUWaA7X-26" value="site_default.properties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="349" y="380" width="122" height="21" as="geometry" />
@@ -371,12 +371,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JFhyeTRjJzJpyD0Qfe4F" name="Architecture">
-    <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="426" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-22" value="Admin Application Data Source" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fontSize=20;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="220" y="528" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-7" value="Admin Application Backend" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=20;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="340" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="2B5LdPzSXTsemUyzK8XX-2" value="Admin Application Frontend" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="220" y="140" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;shape=flexArrow;fillColor=#000066;" edge="1" parent="1" source="2B5LdPzSXTsemUyzK8XX-3" target="2B5LdPzSXTsemUyzK8XX-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2B5LdPzSXTsemUyzK8XX-3" value="HTTP Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="240" width="320" height="30" as="geometry" />
@@ -390,23 +399,47 @@
         <mxCell id="2B5LdPzSXTsemUyzK8XX-6" value="Services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="184" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2B5LdPzSXTsemUyzK8XX-7" value="Admin Application Frontend" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fontSize=20;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="220" y="320" width="340" height="170" as="geometry" />
-        </mxCell>
         <mxCell id="2B5LdPzSXTsemUyzK8XX-8" value="API Security (Role Based)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="230" y="330" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2B5LdPzSXTsemUyzK8XX-9" value="Templates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="413" width="100" height="40" as="geometry" />
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-9" value="Services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="425" width="56" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="2B5LdPzSXTsemUyzK8XX-10" value="Components" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="413" width="100" height="40" as="geometry" />
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-10" value="Reports" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="430" width="56" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="2B5LdPzSXTsemUyzK8XX-11" value="Services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="413" width="100" height="40" as="geometry" />
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#000066;" edge="1" parent="1" source="2B5LdPzSXTsemUyzK8XX-11" target="2B5LdPzSXTsemUyzK8XX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-11" value="DAO&lt;br&gt;(Repository)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="472" y="429" width="78" height="48" as="geometry" />
         </mxCell>
         <mxCell id="2B5LdPzSXTsemUyzK8XX-12" value="REST Web Services (Controller)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="230" y="360" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;shape=flexArrow;fillColor=#000066;" edge="1" parent="1" source="2B5LdPzSXTsemUyzK8XX-8" target="2B5LdPzSXTsemUyzK8XX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#000066;" edge="1" parent="1" source="2B5LdPzSXTsemUyzK8XX-19" target="2B5LdPzSXTsemUyzK8XX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-19" value="Services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="430" width="56" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-21" value="Models" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="430" width="56" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-23" value="Database" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="483.94" y="550" width="54.12" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-24" value="File Server" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.file_server;" vertex="1" parent="1">
+          <mxGeometry x="241" y="560" width="45" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-25" value="Sisense Web Services" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.web_server" vertex="1" parent="1">
+          <mxGeometry x="373" y="560" width="42.56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;strokeColor=#000066;fillColor=#000066;" edge="1" parent="1" source="2B5LdPzSXTsemUyzK8XX-10" target="2B5LdPzSXTsemUyzK8XX-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
