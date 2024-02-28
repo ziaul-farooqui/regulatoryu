@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T06:04:04.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KNFNFw2RWjsBIXz4QGfp" version="23.1.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-28T11:59:33.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="qC09Oqm4RWUkWNbRQYOm" version="23.1.5" type="github" pages="5">
   <diagram name="Deployment Diagram" id="sR0lmf0f-BIrSsYX2vXO">
     <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -390,10 +390,10 @@
         <mxCell id="2B5LdPzSXTsemUyzK8XX-3" value="HTTP Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="240" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2B5LdPzSXTsemUyzK8XX-4" value="Templates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-4" value="HTML Templates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="184" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2B5LdPzSXTsemUyzK8XX-5" value="Components" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2B5LdPzSXTsemUyzK8XX-5" value="Controllers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="184" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2B5LdPzSXTsemUyzK8XX-6" value="Services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -451,9 +451,6 @@
         </mxCell>
         <mxCell id="CE7gI6c3IZndr1ofOIBk-2" value="SCORM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;direction=west;horizontal=0;spacingTop=0;spacing=0;" vertex="1" parent="1">
           <mxGeometry x="572" y="140" width="43" height="528" as="geometry" />
-        </mxCell>
-        <mxCell id="CE7gI6c3IZndr1ofOIBk-3" value="AICC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;direction=west;horizontal=0;spacingTop=0;spacing=0;" vertex="1" parent="1">
-          <mxGeometry x="165" y="502" width="43" height="168" as="geometry" />
         </mxCell>
         <mxCell id="CE7gI6c3IZndr1ofOIBk-4" value="Configuration" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.app_config;" vertex="1" parent="1">
           <mxGeometry x="311" y="555" width="45" height="45" as="geometry" />
