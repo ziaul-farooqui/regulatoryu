@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T14:41:44.209Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Chc4MUowXFDMtkmPPo5H" version="23.1.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-02-29T14:46:08.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="gAfEgjjEu2T2xxWm2qs9" version="23.1.5" type="github" pages="9">
   <diagram name="Deployment Diagram" id="sR0lmf0f-BIrSsYX2vXO">
     <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -608,13 +608,16 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="o8_4eGDqCxt6NDl_ak4F-8" value="Present login form to User" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1" source="o8_4eGDqCxt6NDl_ak4F-2" target="o8_4eGDqCxt6NDl_ak4F-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="o8_4eGDqCxt6NDl_ak4F-8" value="Present login form to User" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.5" y="260" as="sourcePoint" />
+            <mxPoint x="456.5" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="o8_4eGDqCxt6NDl_ak4F-15" value="Instruct browser to POST SAML response to Admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="159.5" y="370" as="sourcePoint" />
-            <mxPoint x="456.5" y="370" as="targetPoint" />
+            <mxPoint x="159.5" y="346" as="sourcePoint" />
+            <mxPoint x="456.5" y="346" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o8_4eGDqCxt6NDl_ak4F-2" value="Identity Provider IdP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -636,18 +639,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="o8_4eGDqCxt6NDl_ak4F-10" value="Authenticates with existin credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1" source="o8_4eGDqCxt6NDl_ak4F-3" target="o8_4eGDqCxt6NDl_ak4F-2">
+        <mxCell id="o8_4eGDqCxt6NDl_ak4F-10" value="Authenticates with existin credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="456.5" y="291" as="sourcePoint" />
+            <mxPoint x="159.5" y="291" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="308" y="308" />
-              <mxPoint x="308" y="308" />
+              <mxPoint x="308" y="291" />
+              <mxPoint x="308" y="291" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o8_4eGDqCxt6NDl_ak4F-16" value="Post SAML response containing authentication and&amp;nbsp;&lt;br&gt;attributes statement to the ACS URL of Admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="456.5" y="378" as="sourcePoint" />
-            <mxPoint x="753.5" y="378" as="targetPoint" />
+            <mxPoint x="456.5" y="354" as="sourcePoint" />
+            <mxPoint x="753.5" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8_4eGDqCxt6NDl_ak4F-18" value="Access as authenticated user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="456.5" y="440" as="sourcePoint" />
+            <mxPoint x="753.5" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o8_4eGDqCxt6NDl_ak4F-3" value="Browser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -659,6 +670,12 @@
               <mxPoint x="616" y="187" />
               <mxPoint x="616" y="187" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8_4eGDqCxt6NDl_ak4F-17" value="Ser Cookie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="753.5" y="407" as="sourcePoint" />
+            <mxPoint x="456.5" y="407" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o8_4eGDqCxt6NDl_ak4F-4" value="Admin with SSO" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -677,12 +694,23 @@
         </mxCell>
         <mxCell id="o8_4eGDqCxt6NDl_ak4F-14" value="Validate &amp;amp; Generate &lt;br&gt;SAML Response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="157.5" y="320" as="sourcePoint" />
-            <mxPoint x="157.5" y="364" as="targetPoint" />
+            <mxPoint x="157.5" y="297" as="sourcePoint" />
+            <mxPoint x="157.5" y="341" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="158" y="318" />
-              <mxPoint x="119" y="318" />
-              <mxPoint x="119" y="364" />
+              <mxPoint x="158" y="295" />
+              <mxPoint x="119" y="295" />
+              <mxPoint x="119" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8_4eGDqCxt6NDl_ak4F-19" value="Check &lt;br&gt;response &lt;br&gt;and &lt;br&gt;extract &lt;br&gt;details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="754" y="363" as="sourcePoint" />
+            <mxPoint x="753.5" y="401" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="754" y="357" />
+              <mxPoint x="781" y="357" />
+              <mxPoint x="781" y="401" />
             </Array>
           </mxGeometry>
         </mxCell>
