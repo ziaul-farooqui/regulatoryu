@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T13:35:55.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="EBJz7YqVOmeYSNLwAvnk" version="23.1.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-29T14:28:51.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="r9CvmhTUA_rt7UuS2G3C" version="23.1.5" type="github" pages="9">
   <diagram name="Deployment Diagram" id="sR0lmf0f-BIrSsYX2vXO">
     <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -599,6 +599,23 @@
         </mxCell>
         <mxCell id="DDs4g1YxBSLXfQwV5ziS-24" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.59;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DDs4g1YxBSLXfQwV5ziS-21" target="DDs4g1YxBSLXfQwV5ziS-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="x7J4xHRxYbmqYN8yblp1" name="SSO">
+    <mxGraphModel dx="880" dy="426" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o8_4eGDqCxt6NDl_ak4F-2" value="Identity Provider IdP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="110" y="44" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="o8_4eGDqCxt6NDl_ak4F-3" value="Browser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="425" y="44" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="o8_4eGDqCxt6NDl_ak4F-4" value="Admin with SSO" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="704" y="44" width="100" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
