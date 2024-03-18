@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T03:38:56.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="OPQ_IlqlJhoxUx__E8FQ" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-18T03:39:20.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="WyGmwnX9AArPy6Sx546R" version="23.1.5" type="github" pages="2">
   <diagram name="BirdEyeView" id="Amk7eXGrmgjlfDPRO3Mm">
     <mxGraphModel dx="880" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -99,13 +99,13 @@
         <mxCell id="sciouXd4B5PFCA-R0Nwe-26" value="Student Application" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="40" y="490" width="240" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="sciouXd4B5PFCA-R0Nwe-27" value="Services" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sciouXd4B5PFCA-R0Nwe-27" value="Services" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=6;" vertex="1" parent="1">
           <mxGeometry x="50" y="590" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sciouXd4B5PFCA-R0Nwe-29" value="Controllers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sciouXd4B5PFCA-R0Nwe-29" value="Controllers" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=6;" vertex="1" parent="1">
           <mxGeometry x="50" y="545" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sciouXd4B5PFCA-R0Nwe-30" value="API Security" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sciouXd4B5PFCA-R0Nwe-30" value="API Security" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=6;" vertex="1" parent="1">
           <mxGeometry x="50" y="500" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sciouXd4B5PFCA-R0Nwe-31" value="Admin Application" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
