@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T07:29:38.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="4ktWJWVZ3VuCkJ5T4h4n" version="24.0.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-03-19T09:56:27.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0ojuL2UyOvBXd3GP3tu_" version="24.0.7" type="github" pages="6">
   <diagram name="BirdEyeView" id="Amk7eXGrmgjlfDPRO3Mm">
     <mxGraphModel dx="880" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -397,14 +397,11 @@
       <root>
         <mxCell id="eR4gbjDKbOdZ4HBGb869-0" />
         <mxCell id="eR4gbjDKbOdZ4HBGb869-1" parent="eR4gbjDKbOdZ4HBGb869-0" />
-        <mxCell id="eR4gbjDKbOdZ4HBGb869-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="80" y="100" width="150" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="eR4gbjDKbOdZ4HBGb869-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="625" y="100" width="150" height="590" as="geometry" />
+        <mxCell id="eR4gbjDKbOdZ4HBGb869-3" value="Admin Application" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
+          <mxGeometry x="625" y="200" width="150" height="610" as="geometry" />
         </mxCell>
         <mxCell id="eR4gbjDKbOdZ4HBGb869-4" value="Search Users" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="640" y="120" width="120" height="50" as="geometry" />
+          <mxGeometry x="640" y="211" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eR4gbjDKbOdZ4HBGb869-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eR4gbjDKbOdZ4HBGb869-1" source="eR4gbjDKbOdZ4HBGb869-8" target="eR4gbjDKbOdZ4HBGb869-4">
           <mxGeometry relative="1" as="geometry" />
@@ -412,13 +409,19 @@
         <mxCell id="mQPX1QvNfNcyROVYIrHd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eR4gbjDKbOdZ4HBGb869-1" source="eR4gbjDKbOdZ4HBGb869-8" target="mQPX1QvNfNcyROVYIrHd-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="AUoH1VvkgHqHrjO2khPi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eR4gbjDKbOdZ4HBGb869-1" source="eR4gbjDKbOdZ4HBGb869-8" target="AUoH1VvkgHqHrjO2khPi-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUoH1VvkgHqHrjO2khPi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eR4gbjDKbOdZ4HBGb869-1" source="eR4gbjDKbOdZ4HBGb869-8" target="AUoH1VvkgHqHrjO2khPi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eR4gbjDKbOdZ4HBGb869-8" value="&lt;div&gt;&lt;div&gt;Inst Admin, Regional Admin, Branch Admin&lt;br&gt;Read Only Admin, Helpdesk, Branch Mngr,&lt;br&gt;Regional Mngr, Executive Mngr, Inst Mngr.&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="395" y="115" width="30" height="60" as="geometry" />
+          <mxGeometry x="365" y="290" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eR4gbjDKbOdZ4HBGb869-9" value="De-Activate User" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="640" y="448" width="120" height="50" as="geometry" />
+          <mxGeometry x="640" y="568" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="eR4gbjDKbOdZ4HBGb869-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eR4gbjDKbOdZ4HBGb869-1" source="eR4gbjDKbOdZ4HBGb869-17" target="eR4gbjDKbOdZ4HBGb869-9">
+        <mxCell id="eR4gbjDKbOdZ4HBGb869-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eR4gbjDKbOdZ4HBGb869-1" source="eR4gbjDKbOdZ4HBGb869-17" target="eR4gbjDKbOdZ4HBGb869-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eR4gbjDKbOdZ4HBGb869-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eR4gbjDKbOdZ4HBGb869-1" source="eR4gbjDKbOdZ4HBGb869-17" target="eR4gbjDKbOdZ4HBGb869-18">
@@ -430,35 +433,41 @@
         <mxCell id="eR4gbjDKbOdZ4HBGb869-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eR4gbjDKbOdZ4HBGb869-1" source="eR4gbjDKbOdZ4HBGb869-17" target="eR4gbjDKbOdZ4HBGb869-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="AUoH1VvkgHqHrjO2khPi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eR4gbjDKbOdZ4HBGb869-1" source="eR4gbjDKbOdZ4HBGb869-17" target="AUoH1VvkgHqHrjO2khPi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eR4gbjDKbOdZ4HBGb869-17" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Universal Admin, Inst Admin, Regional Admin,&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Branch Admin, ReadOnly Admin, Helpdesk&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="365" y="468" width="30" height="60" as="geometry" />
+          <mxGeometry x="365" y="563" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eR4gbjDKbOdZ4HBGb869-18" value="Edit Users" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="640" y="568" width="120" height="50" as="geometry" />
+          <mxGeometry x="640" y="688" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eR4gbjDKbOdZ4HBGb869-19" value="Set User Branch" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="640" y="628" width="120" height="50" as="geometry" />
+          <mxGeometry x="640" y="748" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eR4gbjDKbOdZ4HBGb869-20" value="Delete User" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="640" y="508" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="eR4gbjDKbOdZ4HBGb869-21" value="View &lt;br&gt;SCORM Lesson" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="95" y="120" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="eR4gbjDKbOdZ4HBGb869-22" value="Edit SCORM&lt;br&gt;Data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="95" y="180" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="eR4gbjDKbOdZ4HBGb869-23" value="Edit SCORM Lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="95" y="310" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="eR4gbjDKbOdZ4HBGb869-24" value="Delete SCORM Lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="95" y="370" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="eR4gbjDKbOdZ4HBGb869-25" value="Add SCORM Lesson" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="95" y="250" width="120" height="50" as="geometry" />
+          <mxGeometry x="640" y="628" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mQPX1QvNfNcyROVYIrHd-0" value="User Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
-          <mxGeometry x="640" y="180" width="120" height="50" as="geometry" />
+          <mxGeometry x="640" y="268" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUoH1VvkgHqHrjO2khPi-0" value="List Branch Users" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
+          <mxGeometry x="640" y="326" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUoH1VvkgHqHrjO2khPi-1" value="List Region Users" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
+          <mxGeometry x="640" y="383" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUoH1VvkgHqHrjO2khPi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eR4gbjDKbOdZ4HBGb869-1" source="AUoH1VvkgHqHrjO2khPi-7" target="AUoH1VvkgHqHrjO2khPi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUoH1VvkgHqHrjO2khPi-7" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Universal Admin, Inst Admin, &lt;br&gt;Regional Admin,&amp;nbsp;&lt;/span&gt;Branch Admin&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
+          <mxGeometry x="360" y="415" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUoH1VvkgHqHrjO2khPi-8" value="Register User" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
+          <mxGeometry x="640" y="447" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUoH1VvkgHqHrjO2khPi-10" value="Merge Users" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="eR4gbjDKbOdZ4HBGb869-1">
+          <mxGeometry x="640" y="513" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
