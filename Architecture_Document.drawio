@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T03:24:05.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="lHZAStlkSfLyQjNXk_oV" version="24.0.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-19T03:35:08.911Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="08N8rcbM24d_19t1LPxs" version="24.0.7" type="github" pages="3">
   <diagram name="BirdEyeView" id="Amk7eXGrmgjlfDPRO3Mm">
     <mxGraphModel dx="880" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -317,6 +317,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5aTQ73Dit0DDR1-o7fVg-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="150" height="330" as="geometry" />
+        </mxCell>
         <mxCell id="_Cfn6VdZ4oLA5Ynva69A-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="625" y="100" width="150" height="330" as="geometry" />
         </mxCell>
@@ -326,8 +329,14 @@
         <mxCell id="5aTQ73Dit0DDR1-o7fVg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Cfn6VdZ4oLA5Ynva69A-24" target="_Cfn6VdZ4oLA5Ynva69A-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5aTQ73Dit0DDR1-o7fVg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Cfn6VdZ4oLA5Ynva69A-24" target="5aTQ73Dit0DDR1-o7fVg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5aTQ73Dit0DDR1-o7fVg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Cfn6VdZ4oLA5Ynva69A-24" target="5aTQ73Dit0DDR1-o7fVg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_Cfn6VdZ4oLA5Ynva69A-24" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Universal Admin, Inst Admin, Regional Admin,&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Branch Admin,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Read Only Admin,&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="469" y="80" width="30" height="60" as="geometry" />
+          <mxGeometry x="413" y="80" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5aTQ73Dit0DDR1-o7fVg-2" value="View Custom Lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="190" width="120" height="50" as="geometry" />
@@ -344,8 +353,17 @@
         <mxCell id="5aTQ73Dit0DDR1-o7fVg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5aTQ73Dit0DDR1-o7fVg-3" target="5aTQ73Dit0DDR1-o7fVg-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5aTQ73Dit0DDR1-o7fVg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5aTQ73Dit0DDR1-o7fVg-3" target="5aTQ73Dit0DDR1-o7fVg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5aTQ73Dit0DDR1-o7fVg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5aTQ73Dit0DDR1-o7fVg-3" target="5aTQ73Dit0DDR1-o7fVg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5aTQ73Dit0DDR1-o7fVg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5aTQ73Dit0DDR1-o7fVg-3" target="5aTQ73Dit0DDR1-o7fVg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5aTQ73Dit0DDR1-o7fVg-3" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Universal Admin, Inst Admin, Regional Admin,&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Branch Admin&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="469" y="210" width="30" height="60" as="geometry" />
+          <mxGeometry x="413" y="210" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5aTQ73Dit0DDR1-o7fVg-5" value="Edit Custom Lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="310" width="120" height="50" as="geometry" />
@@ -356,22 +374,19 @@
         <mxCell id="5aTQ73Dit0DDR1-o7fVg-9" value="Add Custom Lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="250" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5aTQ73Dit0DDR1-o7fVg-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="100" width="150" height="330" as="geometry" />
-        </mxCell>
         <mxCell id="5aTQ73Dit0DDR1-o7fVg-12" value="View &lt;br&gt;SCORM Lesson" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="120" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5aTQ73Dit0DDR1-o7fVg-13" value="View Custom Lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="190" width="120" height="50" as="geometry" />
+        <mxCell id="5aTQ73Dit0DDR1-o7fVg-13" value="Edit SCORM&lt;br&gt;Data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="180" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5aTQ73Dit0DDR1-o7fVg-14" value="Edit Custom Lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5aTQ73Dit0DDR1-o7fVg-14" value="Edit SCORM Lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="310" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5aTQ73Dit0DDR1-o7fVg-15" value="Delete Custom Lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5aTQ73Dit0DDR1-o7fVg-15" value="Delete SCORM Lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="370" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5aTQ73Dit0DDR1-o7fVg-16" value="Add Custom Lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5aTQ73Dit0DDR1-o7fVg-16" value="Add SCORM Lesson" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="250" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
