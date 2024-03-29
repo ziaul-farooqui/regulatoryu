@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T11:35:29.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="S87epvbpJs7jtjcxXx9d" version="24.0.7" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2024-03-29T10:54:44.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="lgUpJbb3D-MTxp5F1NBi" version="24.2.0" type="github" pages="21">
   <diagram name="Deployment Diagram" id="sR0lmf0f-BIrSsYX2vXO">
     <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1712,6 +1712,158 @@
               <mxPoint x="583" y="272" />
             </Array>
             <mxPoint x="544" y="272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rQK1Z0BC36d0J_wKhpx7" name="AICC Simulator">
+    <mxGraphModel dx="838" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="136" y="40" width="20" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="rnmZqgE0OtDqUCX68Ntn-1" source="rnmZqgE0OtDqUCX68Ntn-3" target="rnmZqgE0OtDqUCX68Ntn-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5.999999999999943" y="220.00000000000006" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-26" y="180" />
+              <mxPoint x="-26" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="rnmZqgE0OtDqUCX68Ntn-1">
+          <mxGeometry x="5" y="60" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-2" value=":AICCSimulator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="301" y="40" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="rnmZqgE0OtDqUCX68Ntn-2">
+          <mxGeometry x="45" y="60" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-6" value="Request Simulator" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="rnmZqgE0OtDqUCX68Ntn-3" target="rnmZqgE0OtDqUCX68Ntn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-7" value="Launch Simulator" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="rnmZqgE0OtDqUCX68Ntn-2">
+          <mxGeometry x="0.1285" relative="1" as="geometry">
+            <mxPoint x="289" y="116.00000000000003" as="sourcePoint" />
+            <mxPoint x="151" y="126.00000000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="126" />
+              <mxPoint x="290" y="126" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-8" value="Provide StudentApp &amp;amp;&lt;br&gt;&amp;nbsp;Lesson Details to &lt;br&gt;Launch Lesson" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150.99999999999994" y="180.99999999999994" as="sourcePoint" />
+            <mxPoint x="346" y="181.99999999999994" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="151" y="182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-9" value="Launch Link with Unique aiccSID, and &lt;br&gt;Debug URL in IFrame" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1" source="rnmZqgE0OtDqUCX68Ntn-4" target="rnmZqgE0OtDqUCX68Ntn-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="220" />
+              <mxPoint x="260" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-15" value="Read Debug Log" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150.99999999999994" y="239.97999999999993" as="sourcePoint" />
+            <mxPoint x="350.4999999999999" y="235" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="151" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-16" value="Return debug log" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="346" y="252" as="sourcePoint" />
+            <mxPoint x="151" y="250.99999999999994" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="249" y="252" />
+              <mxPoint x="249" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-17" value=":StudentApp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="515" y="40" width="100" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="rnmZqgE0OtDqUCX68Ntn-17">
+          <mxGeometry x="45" y="210" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-20" value="Launch URL in new tab" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="rnmZqgE0OtDqUCX68Ntn-3" target="rnmZqgE0OtDqUCX68Ntn-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="270" />
+              <mxPoint x="230" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-21" value="call getparam &lt;br&gt;with aiccSID to verify" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="305.9999999999999" as="sourcePoint" />
+            <mxPoint x="350.54761904761904" y="303.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="304" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-22" value="Return student and &lt;br&gt;lesson location and other detail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="356" y="340.9999999999999" as="sourcePoint" />
+            <mxPoint x="560" y="340.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="341" />
+              <mxPoint x="510" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-23" value="Show lesson and related activities in new session" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559" y="373.04761904761904" as="sourcePoint" />
+            <mxPoint x="150" y="373.04761904761904" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="239" y="373" />
+              <mxPoint x="239" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-24" value="Complete lesson, test and Exit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="151" y="440.9999999999999" as="sourcePoint" />
+            <mxPoint x="564.5" y="440.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="441" />
+              <mxPoint x="230" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-25" value="call putparam with status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="402.9999999999999" as="sourcePoint" />
+            <mxPoint x="350.54761904761904" y="402.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="403" />
+              <mxPoint x="520" y="403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnmZqgE0OtDqUCX68Ntn-26" value="call putparam for lesson status, &lt;br&gt;test status&lt;br&gt;and exit command if exit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559.45" y="507.9999999999999" as="sourcePoint" />
+            <mxPoint x="349.997619047619" y="507.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="519.45" y="508" />
+              <mxPoint x="519.45" y="508" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
